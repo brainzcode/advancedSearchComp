@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  margin: 50px;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  padding: 10px;
+  width: 20rem;
+  font-size: 20px;
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+}
+
+.listItems {
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: black;
+  font-weight: 300;
+}
+
+table {
+  margin-top: 50px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+.head {
+  border: 1px solid black;
+  padding: 15px 100px;
+}
+.tbody {
+  padding: 15px 100px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
